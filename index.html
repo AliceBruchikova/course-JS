@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index_style.css">
+    <title>Alice Bru</title>
+</head>
+<body>
+    <div class="title">ToDo List</div>
+    <div class="comon">
+        <div class="toDo">
+
+            <div class="blockTitle">ToDo</div>
+
+            <div class="toDoData"></div>
+
+            <button id="toDoAddBtn" class="toDoAddBtn">+Add</button>
+
+            <form class="toDoFormContainer">
+                <div id="doDoForm" style="display: none">
+                    <div class="formTitle">Add Task</div>
+                    <input type="text" name="" id="toDoTaskName" class="taskName">
+                    <input type="text" name="" id="toDoContent" class="toDoContent">
+                    <button class="addTask" id="addTask">Add Task</button>
+                    <button class="closeTask">Close</button>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="delete">
+            <div class="blockTitle">In Progress</div>
+            <div class="progressToDoData"></div>
+        </div>
+        <div class="delete">
+            <div class="blockTitle">Done</div>
+            <div class="doneToDoData"></div>
+        </div>
+        <div class="delete">
+            <div class="blockTitle">Delete</div>
+            <div class="deletedToDoData"></div>
+        </div>
+
+
+    </div>
+    <div id="modalWindow">
+        <form class="editForm" id="editForm" style="display:none;">
+            <div class="formTitle">Edit Task</div>
+            <input type="text" name="" id="toDoTaskNameEdit" class="taskName">
+            <input type="text" name="" id="toDoContentEdit" class="toDoContent">
+            <button class="saveEdit">Save</button>
+            <button id="closeEditModal">Close</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

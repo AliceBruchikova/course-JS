@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.comon {
+    display: flex;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.toDo {
+    width: 23%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(60, 60, 60);
+    color:rgb(224, 224, 224);
+}
+.blockTitle {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(224, 224, 224);
+}
+
+.toDoData {
+    width: 95%;
+    height: auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+.toDoTaskItem {
+    margin: 5px 0;
+    padding: 5px;
+}
+.toDoTaskItem:hover {
+    border-radius: 10px;
+    background-color: rgb(140, 140, 140);
+}
+
+.taskTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.2rem 0;
+}
+
+.taskContent {
+    font-size: 1rem;
+    font-weight: 400;    
+    padding: 0.2rem 0 0.5rem;
+}
+
+.toDoAddBtn {
+    display: block;
+    margin: 0.5rem auto;
+    width: 85%;
+    height: 30px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-weight: 700;
+}
+.toDoAddBtn:hover {
+    background-color: rgb(140, 140, 140);  
+    color: black;
+}
+
+.doDoForm {
+    width: 85%;
+    height: auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(140, 140, 140);
+}
+
+.formTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.2rem;
+    text-align: center;
+}
+
+.taskName {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0.2rem auto;
+}
+
+.toDoContent {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin: 0.2rem auto 0.5rem;
+}
+
+.addTask {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.closeTask {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.editForm {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    z-index: 1;
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(140, 140, 140);
+    padding: 5px;
+}
+
+
+.delete {
+    width: 23%;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgb(60, 60, 60);
+    color:rgb(224, 224, 224);
+}
+.toDoData:hover {
+    color: black;
+}
+.progressToDoData {
+    width: 95%;
+    height: auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+.progressToDoData:hover {
+    color: black;
+}
+.doneToDoData {
+    width: 95%;
+    height: auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+.doneToDoData:hover {
+    color: black;
+}
+.deletedToDoData {
+    width: 95%;
+    height: auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+.deletedToDoData:hover {
+    color: black;
+}
